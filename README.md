@@ -13,9 +13,9 @@ update wp_comments set comment_content = replace( comment_content, 'http://oldur
 
 
  
-wp_posts table, in the posts_content field (links inside posts and pages)
-wp_links table, in the link_url field (the old Link Manager)
-wp_postmeta table, in the meta_value field (URLs of Custom Menu items)
-wp_options table, in the option_value field (anything saved by themes and plugins)
-wp_comments table, in the comment_content field (URLs inside comments)
+wp_posts table, in the posts_content field (links inside posts and pages)  
+wp_links table, in the link_url field (the old Link Manager)  
+wp_postmeta table, in the meta_value field (URLs of Custom Menu items)  
+wp_options table, in the option_value field (anything saved by themes and plugins)  
+wp_comments table, in the comment_content field (URLs inside comments)  
 
